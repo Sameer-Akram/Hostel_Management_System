@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/relative_bg"
+    android:layout_height="match_parent">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="40dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/warden" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/roundsign">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/customstyle"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="20dp"
+            android:drawableTint="@color/black"
+            android:focusable="true"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="Log in to your Account"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            tools:ignore="NotSibling" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_marginStart="24dp"
+            android:text="Here you can log in as a Warden"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:ignore="NotSibling" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:autofillHints=""
+            android:background="@drawable/customstyle"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="20dp"
+            android:drawableTint="@color/black"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/Sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/round_btn"
+            android:fontFamily="@font/baloo_bhai"
+            android:padding="10dp"
+            android:text="Sign in"
+            android:textColor="@color/white" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/Sign_in"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="22dp"
+            android:indeterminateTint="@color/relative_bg" />
+
+        <TextView
+            android:id="@+id/createWarden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Sign_in"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/customstyle"
+            android:fontFamily="@font/baloo_bhai"
+            android:padding="5dp"
+            android:text="Reset Password"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources>
+    <string-array name="category">
+        <item>Select Category</item>
+        <item>BS</item>
+        <item>MS</item>
+        <item>PH.D</item>
+
+
+    </string-array>
+
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="blood_group">
+        <item>Select Blood Group</item>
+        <item>A+</item>
+        <item>B+</item>
+        <item>AB+</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>B-</item>
+        <item>AB-</item>
+        <item>O-</item>
+    </string-array>
+
+
+    <string-array name="Cllass">
+        <item>Class</item>
+        <item>BS</item>
+        <item>MS</item>
+        <item>PhD</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="branch">
+        <item>Branch</item>
+        <item>AGE</item>
+        <item>CE</item>
+        <item>CS</item>
+        <item>EE</item>
+        <item>ECE</item>
+        <item>IT</item>
+        <item>ME</item>
+        <item>MI</item>
+        <item>Dairy and Food Science</item>
+    </string-array>
+
+
+
+    <string-array name="year">
+        <item>Year</item>
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+    </string-array>
+
+
+
+    <string-array name="Room">
+        <item>Year</item>
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+    </string-array>
+
+
+</resources>
